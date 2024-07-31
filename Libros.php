@@ -2,7 +2,6 @@
 
 class Libros
 {
-
     private $mysqli;
 
     public function conexion($host, $user, $password, $db)
@@ -160,3 +159,4 @@ $libros->closeConnection();
 echo "<p>error al conectar a la base de datos. </p>";
 }
  */
+?>
